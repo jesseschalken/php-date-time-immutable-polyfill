@@ -9,6 +9,6 @@
     }
   ],
   "autoload": {
-    "classMap": [""]
+    "classmap": [""]
   }
 }
