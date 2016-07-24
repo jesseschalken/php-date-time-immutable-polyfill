@@ -1,5 +1,5 @@
 {
-  "name": "jesseschalken/DateTimeImmutable-polyfill",
+  "name": "jesseschalken/date-time-immutable-polyfill",
   "description": "DateTimeImmutable and DateTimeInterface polyfill for PHP 5.3-5.4",
   "license": "MIT",
   "authors": [
