@@ -1,0 +1,14 @@
+{
+  "name": "jesseschalken/DateTimeImmutable-polyfill",
+  "description": "DateTimeImmutable and DateTimeInterface polyfill for PHP 5.3-5.4",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jesse Schalken",
+      "email": "me@jesseschalken.com"
+    }
+  ],
+  "autoload": {
+    "classMap": [""]
+  }
+}
