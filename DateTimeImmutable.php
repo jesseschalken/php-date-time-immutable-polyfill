@@ -31,7 +31,11 @@ class DateTimeImmutable implements DateTimeInterface {
   private $dt;
 
   public function __construct($time = "now", $object = null) {
-    $this->dt = new DateTime($time, $object);
+    if($object instanceof DateTimeZone){
+    	$this->dt = new DateTime($time, $object);
+    }else{
+  	$this->dt = new DateTime($time);
+    }
   }
 
   public function __wakeup() {
